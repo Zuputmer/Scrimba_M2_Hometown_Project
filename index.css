@@ -1,0 +1,118 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 700;
+    /* text-shadow: 0 0 2px grey; */
+}
+
+/* @font-face {
+    font-family: Custom;
+    src: url(custom.ttf);
+} */
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    background-image: url("images/cbe_1.jpg");
+    min-height: 750px;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_back_c1{
+    background: white;
+    margin: 5px 100px 10px 100px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    opacity: 80%;
+}
+
+.c2{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#d8f3dc,#b7e4c7,#95d5b2,#74c69d);
+    margin: 0;
+}
+
+.c2cols{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    column-gap: 30px;
+    margin: 30px;
+    padding: 30px;
+    background: white;
+    border-radius: 25px;
+    transition: margin-top 250ms, margin-bottom 250ms;
+}
+
+.c2cols:hover{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.card_img{
+    width: 300px;
+    border-radius: 25px;
+}
+
+.card_text_left{
+    text-align: left;
+    width: 400px;
+}
+
+.card_text_right{
+    text-align: right;
+    width: 400px;
+}
+
+.avatar_img {
+    width: 200px;
+    border-radius: 25px;
+}
+
+.c3{
+    background: linear-gradient(#74c69d,#c7f9cc);
+    margin: 0;
+    padding: 30px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.c3_card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 45px;
+    border: 10px solid #c7f9cc;
+    border-radius: 25px;
+    width: 400px;
+    box-shadow: 7px 7px #38a3a5;
+    margin: 30px;
+    padding: 30px;
+    transition: margin-top 250ms, margin-bottom 250ms;
+}
+
+.c3_card:hover{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
